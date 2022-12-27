@@ -1,0 +1,249 @@
+.feeling_good{
+	position: absolute;
+    left: 5%;
+}
+.bar_nav{
+	position: absolute;
+    right: 1%;
+}
+.ajouter_un_livre_background{
+  background-color: #e6b3cc;
+} 
+.accéder_à_la_liste_background{
+  background-color: #80aaff;
+} 
+.ajouter_un_livre{
+  background-color: #ffe6e6;
+  position: absolute;
+  left: 35%;
+  top: 33%;
+  height: 43%;
+  width: 30%;
+}
+.Home{
+  background-color: #6F8AD6;
+  position: absolute;
+  left: 17.75%;
+  top: 38%;
+  height: 32%;
+  width: 65%;
+}
+.text_Home{
+    position: relative;
+    text-align: center;
+    font-size: 10px;
+}
+.accéder_à_la_liste{
+  background-color: #ccddff;
+  position: absolute;
+  left: 7.5%;
+  top: 33%;
+  height: 43%;
+  width: 85%;
+}
+.background_image{
+  background-position: center;
+  padding: 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("Image de fond php.jpg");
+  min-height: 100%;
+}
+.text_livre{
+    position: absolute;
+    bottom: 11%;
+    right: 8%;
+}
+.text_liste{
+    position: relative;
+    left: 2.5%;
+}
+nav{
+  position: absolute;
+	height: 70px;
+	width: 100%;
+	background-color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav div ul{
+  padding-inline-start: 0px;
+}
+nav div ul li{
+  display: inline-block;
+  margin: 0 10px;
+  padding: 6px 0 0 0;
+  text-align: center;
+  cursor: pointer;
+  height: 40px;
+}
+body, html{
+	margin: 0%;
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+nav div ul li a {
+      position: relative;
+      display: block;
+      padding: 13px 0 0 0;
+      color: white;
+      text-decoration: solid;
+      text-transform: uppercase;
+      font-size: 15px;
+      transition: 0.5s;
+}
+nav div strong{
+      padding: 13px 0 0 0;
+      color: white;
+      text-decoration: solid;
+      text-transform: uppercase;
+      font-size: 25px;
+      transition: 0.5s;
+}
+nav div ul li a::after {
+        position: absolute;
+        content: "";
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+        background: #3498db;
+        transform: scaleX(0);
+        transform-origin: right;
+        transition: transform 0.5s;
+}
+nav div ul li a:hover::after {
+        transform: scaleX(1);
+        transform-origin: left;
+}
+footer{
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+.close{
+  margin: 60px 0 0 5px;
+  position: absolute;
+}
+
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #e6b3cc;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #e6b3cc;
+}
+.close-container:hover label{
+  opacity: 1;
+}
+.close-container{
+    position: relative;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+    top: -28%;
+}
+
+.leftright{
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: white;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+
+.rightleft{
+  height: 4px;
+  width: 30px;
+  position: absolute;
+  margin-top: 24px;
+  background-color: white;
+  border-radius: 2px;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+.cube{
+  background-color: black;
+  border-radius: 5px;
+  width: 33px;
+  height: 33px;
+  position: static;
+  top:15px;
+  left: 15px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.boutton-envoyer{
+  position: absolute;
+    left: 85%;
+    top: 98%;
+}
+.boutton-update{
+  position: absolute;
+    left: 65%;
+    top: 90%;
+}
+.boutton-update-no{
+  position: absolute;
+    left: 80%;
+    top: 90%;
+}
+.aligner{
+    position: relative;
+    left: 24.5%;
+}
+.livre{
+  position: fixed;
+  top: 90%
+}
+table thead tr th span, table tbody tr td span{ 
+  font-size: 15px;
+  font-weight: normal;
+  color: black;
+}
+span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+body div label strong{
+  font-size: 50px;
+  color: black;
+}
+body div p{
+  font-size: 15px;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.titre_livre{
+  display: flex;
+  justify-content: center;
+}
+.div_titre_livre{
+  position: relative;
+  top: 9%;
+}
+.titre_liste{
+  display: flex;
+  justify-content: center;
+}
+.div_titre_liste{
+  position: relative;
+  top: 9%;
+}
+#ajout{
+    margin-top:80px;
+}
